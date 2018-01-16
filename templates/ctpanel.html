@@ -1,0 +1,11 @@
+<html>
+    <body>
+        <script type=text/javascript src="{{url_for('static', filename='jquery.js') }}"></script>
+        <h1>You are authrized to the restricted area</h1>
+        
+
+        <form action="/logout" method="post">
+        <input id="sbmt" type="submit" value="logout"/>
+        </form>
+        </body>
+</html>
